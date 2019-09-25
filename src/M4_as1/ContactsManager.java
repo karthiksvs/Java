@@ -69,7 +69,7 @@ class ContactsManager {
         //  Your code goes here....
         for (int i=0;i<friendsCount;i++) {
             if (myfriends[i].name.equals(searchName)) {
-                System.out.println(myfriends[i]);
+                //System.out.println(myfriends[i]);
                 return myfriends[i];
             }
         }
@@ -86,7 +86,7 @@ class ContactsManager {
         //  Your code goes here....
         for (int i=0;i<friendsCount;i++) {
             if (myfriends[i].email.equals(email)) {
-                System.out.println(myfriends[i]);
+                //System.out.println(myfriends[i]);
                 return myfriends[i];
             }
         }
@@ -103,8 +103,11 @@ class ContactsManager {
     public boolean deleteContact(String searchName) {
         //  Your code goes here....
         for (int i=0;i<friendsCount;i++){
-            if(myfriends[i].name.equals(searchName))
+            if(myfriends[i].name.equals(searchName)) {
+                myfriends[i].name="geodge";
+                System.out.println(myfriends[i]+"deleted");
                 return true;
+            }
         }
         return false;
     }
