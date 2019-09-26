@@ -79,7 +79,7 @@ class ContactsManager {
     /**
      * This method search for the contact based on the email of your friend 
      * and gives the first occurance of the contact in your friends list.
-     * @param searchName, the email of the contact to be searched in the friends list.
+     * @paramsearchName, the email of the contact to be searched in the friends list.
      * @return the contact of the friend, null otherwise.
      */
     public Contact searchContactByEmail(String email) {
