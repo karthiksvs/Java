@@ -16,7 +16,7 @@ public class ListMain {
 			int ch=sc.nextInt();
 		switch(ch) {
 		case 1:
-			System.out.println("ENter data size to add");
+			System.out.println("Enter data size to add");
 			int a=sc.nextInt();
 			int b=0;
 			for(int i=0;i<a+b;i++) {
@@ -28,7 +28,7 @@ public class ListMain {
 			b=b+a;
 			break;
 		case 2:
-			System.out.println("ENter data to add in start");
+			System.out.println("Enter data to add in start");
 			int dat=sc.nextInt();
 			ob.addst(dat);
 			break;
@@ -36,7 +36,7 @@ public class ListMain {
 			ob.display();
 			break;
 		case 4:
-			System.out.println("ENter data to add in middle");
+			System.out.println("Enter data to add in middle");
 			int d=sc.nextInt();
 			ob.insertAtMiddle(d);
 			break;
