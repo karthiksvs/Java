@@ -161,7 +161,7 @@ public class Shape3D_Client {
 //create all objects withe respective consturctors
 //display 
      System.out.println("Square Pyramid");
-SquarePyramid s=new SquarePyramid(10,20);
+SquarePyramid s=new SquarePyramid(37,20);
 System.out.println(s.getArea());
 System.out.println(s.getHeight());
 System.out.println(s.getLength());
