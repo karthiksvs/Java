@@ -1,0 +1,3 @@
+How I parse String value char type, in Java
+
+I know how it int and double 

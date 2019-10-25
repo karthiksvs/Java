@@ -1,0 +1,3 @@
+How do I parse a String value to a char type, in Java
+
+I know how to do it to int and double 
